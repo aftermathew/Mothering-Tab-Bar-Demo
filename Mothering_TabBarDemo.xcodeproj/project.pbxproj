@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B796155B10A7B7440067B141 /* MLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796155910A7B7440067B141 /* MLogViewController.m */; };
+		B796155C10A7B7440067B141 /* MLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796155A10A7B7440067B141 /* MLogViewController.xib */; };
+		B796156310A7B86D0067B141 /* MQuestionAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796156110A7B86D0067B141 /* MQuestionAnswerViewController.m */; };
+		B796156410A7B86D0067B141 /* MQuestionAnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796156210A7B86D0067B141 /* MQuestionAnswerViewController.xib */; };
+		B796157810A7B8E20067B141 /* MVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796157610A7B8E20067B141 /* MVideoViewController.m */; };
+		B796157910A7B8E20067B141 /* MVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796157710A7B8E20067B141 /* MVideoViewController.xib */; };
+		B79615AB10A7C5600067B141 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79615AA10A7C5600067B141 /* MediaPlayer.framework */; };
+		B796163510A8C0BC0067B141 /* cavity_flow_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */; };
+		B796164810A8C2DD0067B141 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796164610A8C2DD0067B141 /* YouTubeViewController.m */; };
+		B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796164710A8C2DD0067B141 /* YouTubeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mothering_TabBarDemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mothering_TabBarDemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Mothering_TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mothering_TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Mothering_TabBarDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mothering_TabBarDemo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Mothering_TabBarDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mothering_TabBarDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B796155810A7B7440067B141 /* MLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLogViewController.h; sourceTree = "<group>"; };
+		B796155910A7B7440067B141 /* MLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLogViewController.m; sourceTree = "<group>"; };
+		B796155A10A7B7440067B141 /* MLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLogViewController.xib; sourceTree = "<group>"; };
+		B796156010A7B86D0067B141 /* MQuestionAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQuestionAnswerViewController.h; sourceTree = "<group>"; };
+		B796156110A7B86D0067B141 /* MQuestionAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQuestionAnswerViewController.m; sourceTree = "<group>"; };
+		B796156210A7B86D0067B141 /* MQuestionAnswerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQuestionAnswerViewController.xib; sourceTree = "<group>"; };
+		B796157510A7B8E20067B141 /* MVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVideoViewController.h; sourceTree = "<group>"; };
+		B796157610A7B8E20067B141 /* MVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVideoViewController.m; sourceTree = "<group>"; };
+		B796157710A7B8E20067B141 /* MVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVideoViewController.xib; sourceTree = "<group>"; };
+		B79615AA10A7C5600067B141 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = cavity_flow_movie.mp4; path = ../../../../Desktop/cavity_flow_movie.mp4; sourceTree = SOURCE_ROOT; };
+		B796164510A8C2DD0067B141 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
+		B796164610A8C2DD0067B141 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
+		B796164710A8C2DD0067B141 /* YouTubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B79615AB10A7C5600067B141 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Mothering_TabBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B796155710A7B6D60067B141 /* Controllers */,
+				B796155610A7B6C40067B141 /* Views */,
+				B796155410A7B6B80067B141 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B79615AA10A7C5600067B141 /* MediaPlayer.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Mothering_TabBarDemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Mothering_TabBarDemo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B796155410A7B6B80067B141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B796155610A7B6C40067B141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B796157710A7B8E20067B141 /* MVideoViewController.xib */,
+				B796156210A7B86D0067B141 /* MQuestionAnswerViewController.xib */,
+				B796155A10A7B7440067B141 /* MLogViewController.xib */,
+				B796164710A8C2DD0067B141 /* YouTubeViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B796155710A7B6D60067B141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B796155810A7B7440067B141 /* MLogViewController.h */,
+				B796155910A7B7440067B141 /* MLogViewController.m */,
+				B796156010A7B86D0067B141 /* MQuestionAnswerViewController.h */,
+				B796156110A7B86D0067B141 /* MQuestionAnswerViewController.m */,
+				B796157510A7B8E20067B141 /* MVideoViewController.h */,
+				B796157610A7B8E20067B141 /* MVideoViewController.m */,
+				B796164510A8C2DD0067B141 /* YouTubeViewController.h */,
+				B796164610A8C2DD0067B141 /* YouTubeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Mothering_TabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mothering_TabBarDemo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mothering_TabBarDemo;
+			productName = Mothering_TabBarDemo;
+			productReference = 1D6058910D05DD3D006BFB54 /* Mothering_TabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mothering_TabBarDemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Mothering_TabBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B796155C10A7B7440067B141 /* MLogViewController.xib in Resources */,
+				B796156410A7B86D0067B141 /* MQuestionAnswerViewController.xib in Resources */,
+				B796157910A7B8E20067B141 /* MVideoViewController.xib in Resources */,
+				B796163510A8C0BC0067B141 /* cavity_flow_movie.mp4 in Resources */,
+				B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Mothering_TabBarDemoAppDelegate.m in Sources */,
+				B796155B10A7B7440067B141 /* MLogViewController.m in Sources */,
+				B796156310A7B86D0067B141 /* MQuestionAnswerViewController.m in Sources */,
+				B796157810A7B8E20067B141 /* MVideoViewController.m in Sources */,
+				B796164810A8C2DD0067B141 /* YouTubeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mothering_TabBarDemo_Prefix.pch;
+				INFOPLIST_FILE = "Mothering_TabBarDemo-Info.plist";
+				PRODUCT_NAME = Mothering_TabBarDemo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mothering_TabBarDemo_Prefix.pch;
+				INFOPLIST_FILE = "Mothering_TabBarDemo-Info.plist";
+				PRODUCT_NAME = Mothering_TabBarDemo;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Mothering_TabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Mothering_TabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
