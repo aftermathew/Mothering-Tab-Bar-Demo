@@ -20,9 +20,9 @@
 		B796157810A7B8E20067B141 /* MVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796157610A7B8E20067B141 /* MVideoViewController.m */; };
 		B796157910A7B8E20067B141 /* MVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796157710A7B8E20067B141 /* MVideoViewController.xib */; };
 		B79615AB10A7C5600067B141 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79615AA10A7C5600067B141 /* MediaPlayer.framework */; };
-		B796163510A8C0BC0067B141 /* cavity_flow_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */; };
 		B796164810A8C2DD0067B141 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796164610A8C2DD0067B141 /* YouTubeViewController.m */; };
 		B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796164710A8C2DD0067B141 /* YouTubeViewController.xib */; };
+		B7DA424D10A907F7009F936E /* cavity_flow_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B7DA424C10A907F7009F936E /* cavity_flow_movie.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +46,10 @@
 		B796157610A7B8E20067B141 /* MVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVideoViewController.m; sourceTree = "<group>"; };
 		B796157710A7B8E20067B141 /* MVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVideoViewController.xib; sourceTree = "<group>"; };
 		B79615AA10A7C5600067B141 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = cavity_flow_movie.mp4; path = ../../../../Desktop/cavity_flow_movie.mp4; sourceTree = SOURCE_ROOT; };
 		B796164510A8C2DD0067B141 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
 		B796164610A8C2DD0067B141 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
 		B796164710A8C2DD0067B141 /* YouTubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
+		B7DA424C10A907F7009F936E /* cavity_flow_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = cavity_flow_movie.mp4; path = Resources/cavity_flow_movie.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B796163410A8C0BC0067B141 /* cavity_flow_movie.mp4 */,
+				B7DA424C10A907F7009F936E /* cavity_flow_movie.mp4 */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Mothering_TabBarDemo-Info.plist */,
 			);
@@ -208,8 +208,8 @@
 				B796155C10A7B7440067B141 /* MLogViewController.xib in Resources */,
 				B796156410A7B86D0067B141 /* MQuestionAnswerViewController.xib in Resources */,
 				B796157910A7B8E20067B141 /* MVideoViewController.xib in Resources */,
-				B796163510A8C0BC0067B141 /* cavity_flow_movie.mp4 in Resources */,
 				B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */,
+				B7DA424D10A907F7009F936E /* cavity_flow_movie.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
