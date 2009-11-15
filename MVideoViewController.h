@@ -10,9 +10,9 @@
 #import <MediaPlayer/MediaPlayer.h>
 
 @interface MVideoViewController : UIViewController <UITextFieldDelegate> {
-	
-	UITextView * logText;
-	MPMoviePlayerController *moviePlayer;
+  UITextView * logText;
+  MPMoviePlayerController *m_moviePlayer;
+  NSURL *m_movieUrl;
 }
 
 @property (retain, nonatomic) IBOutlet UITextView * logText;

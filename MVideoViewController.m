@@ -60,8 +60,9 @@
 
 
 - (void)dealloc {
-	self.logText = nil;
-    [super dealloc];
+  [m_moviePlayer release];
+  self.logText = nil;
+  [super dealloc];
 }
 
 - (IBAction)handleTextFieldClick {
@@ -77,8 +78,8 @@
 		return;
 	}
 	NSURL * videoURL = [NSURL fileURLWithPath:videoPath];
-	moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
-	[moviePlayer play];
+	m_moviePlayer = [[[MPMoviePlayerController alloc] initWithContentURL:videoURL] retain];
+	[m_moviePlayer play];
 	NSLog(@"playin the movie");
 }
 
