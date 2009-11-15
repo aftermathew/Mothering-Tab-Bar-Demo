@@ -1,207 +1,0 @@
-TMothering_TabBarDemo
-v7
-r0
-t279425733.949449
-cCheck dependencies
-cProcessInfoPlistFile "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Info.plist" Mothering_TabBarDemo-Info.plist
-cCompileXIB "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib"
-cProcessPCH /var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch.gch Mothering_TabBarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/main.o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemoAppDelegate.o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo" normal i386
-cGenerateDSYMFile "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM" "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo"
-cTouch "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
-c000000004AB995DD00000000000000EE
-t1253676509
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A821911000000000026EE30
-t1250040081
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A765094000000000027E880
-t1249267860
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A7650820000000000001355
-t1249267842
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A7C6E970000000000000788
-t1249668759
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A7C6F5900000000016721E0
-t1249668953
-s23536096
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.h
-c000000004AF77A47000000000000016C
-t1257732679
-s364
-i<UIKit/UIKit.h>
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m
-c000000004AF77A470000000000000213
-t1257732679
-s531
-i"Mothering_TabBarDemoAppDelegate.h"
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib
-c000000004AF77B4100000000000059B4
-t1257732929
-s22964
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Mothering_TabBarDemo_Prefix.pch
-c000000004AF77A4700000000000000D1
-t1257732679
-s209
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app
-t1257732933
-s204
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM
-t1257732933
-s102
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Info.plist
-t1257732932
-s620
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/MainWindow.nib
-t1257732932
-s1558
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo
-t1257732933
-s18600
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/PkgInfo
-t1257732932
-s8
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemo.LinkFileList
-c000000004AF77B440000000000000169
-t1257732932
-s361
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemoAppDelegate.o
-t1257732933
-s17408
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/main.o
-t1257732933
-s5980
-
-N/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m
-c000000004AF77A470000000000000174
-t1257732679
-s372
-i<UIKit/UIKit.h>
-
-N/var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch.gch
-t1257732933
-s13034960
-
-NMothering_TabBarDemo-Info.plist
-c000000004AF77A47000000000000038D
-t1257732679
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies279425732#279425732#0(0"0(0#1#0"7453010373393282048#0"0#
-
-CCompileC build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemoAppDelegate.o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s279425733.768750
-e279425733.858558
-r1
-xCompileC
-xbuild/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemoAppDelegate.o
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m279425733#279425733#0(0"0(0#0#99"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m4300882208#2410"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-generated-files.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-own-target-headers.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-all-target-headers.hmap" -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-project-headers.hmap" "-F/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/include" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources/i386" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources" -include /var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch -c "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Classes/Mothering_TabBarDemoAppDelegate.m" -o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemoAppDelegate.o"0#
-
-CCompileC build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/main.o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s279425733.767390
-e279425733.823424
-r1
-xCompileC
-xbuild/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/main.o
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m279425733#279425733#0(0"0(0#0#64"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m4300882208#2348"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-generated-files.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-own-target-headers.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-all-target-headers.hmap" -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-project-headers.hmap" "-F/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/include" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources/i386" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources" -include /var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch -c "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/main.m" -o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib"
-s279425732.655054
-e279425732.974235
-r1
-xCompileXIB
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib279425732#279425732#0(0"0(0#0#72"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib4300882208#556"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/MainWindow.nib" "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/MainWindow.xib"0#
-
-CGenerateDSYMFile "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM" "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo"
-s279425733.887000
-e279425733.904423
-r1
-xGenerateDSYMFile
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo
-lSLF07#2@148"GenerateDSYMFile build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo279425733#279425733#0(0"0(0#0#131"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo4300882208#485"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo" -o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app.dSYM"0#
-
-CLd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo" normal i386
-s279425733.858650
-e279425733.886895
-r1
-xLd
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo
-xnormal
-xi386
-lSLF07#2@136"Link /Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo279425733#279425733#0(0"0(0#0#0"4300882208#1032"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk "-L/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator" "-F/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator" -filelist "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Objects-normal/i386/Mothering_TabBarDemo.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Mothering_TabBarDemo"0#
-
-CProcessInfoPlistFile "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Info.plist" Mothering_TabBarDemo-Info.plist
-s279425732.643242
-e279425732.654934
-r1
-xProcessInfoPlistFile
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Info.plist
-xMothering_TabBarDemo-Info.plist
-lSLF07#2@39"Process Mothering_TabBarDemo-Info.plist279425732#279425732#0(0"0(0#0#89"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Mothering_TabBarDemo-Info.plist7526763254542200832#581"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Mothering_TabBarDemo-Info.plist -genpkginfo "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app/Info.plist"0#
-
-CProcessPCH /var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch.gch Mothering_TabBarDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s279425732.974389
-e279425733.767286
-r1
-xProcessPCH
-x/var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch.gch
-xMothering_TabBarDemo_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Precompile Mothering_TabBarDemo_Prefix.pch279425732#279425733#0(0"0(0#0#89"/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Mothering_TabBarDemo_Prefix.pch4300882208#2206"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-generated-files.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-own-target-headers.hmap" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-all-target-headers.hmap" -iquote "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/Mothering_TabBarDemo-project-headers.hmap" "-F/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/include" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources/i386" "-I/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Mothering_TabBarDemo.build/Debug-iphonesimulator/Mothering_TabBarDemo.build/DerivedSources" -c "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/Mothering_TabBarDemo_Prefix.pch" -o /var/folders/Vj/VjR5PVmrEvqoXKzayXk+eE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Mothering_TabBarDemo_Prefix-ejbkopdagviszagoajjgabekbytc/Mothering_TabBarDemo_Prefix.pch.gch0#
-
-CTouch "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app"
-s279425733.904512
-e279425733.949387
-r1
-xTouch
-x/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app
-lSLF07#2@116"Touch /Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app279425733#279425733#0(0"0(0#0#0"4300882208#333"    cd "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/demi/Dropbox/iPhone/Test Apps/Mothering_TabBarDemo/build/Debug-iphonesimulator/Mothering_TabBarDemo.app"0#
-
