@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Mothering_TabBarDemoAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
+  UIWindow *window;
 	UITabBarController *tabBarController;
 }
 

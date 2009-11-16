@@ -48,13 +48,16 @@
 			<object class="IBUITabBarController" id="63236387">
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="456722288">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="409562702">
-						<string key="IBUITitle">Video</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="755824200">
+					<string key="IBUITitle">Online Video</string>
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="743384387">
+						<string key="IBUITitle">Online Video</string>
 						<reference key="IBUITabBar"/>
 					</object>
+					<object class="NSArray" key="IBUIToolbarItems">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+					</object>
 					<reference key="IBUIParentViewController" ref="63236387"/>
-					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -74,18 +77,15 @@
 						</object>
 						<reference key="IBUIParentViewController" ref="63236387"/>
 					</object>
-					<reference ref="456722288"/>
-					<object class="IBUIViewController" id="1028108996">
-						<string key="IBUITitle">Online Video</string>
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="153907229">
-							<string key="IBUITitle">Online Video</string>
+					<object class="IBUIViewController" id="456722288">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="409562702">
+							<string key="IBUITitle">Video</string>
 							<reference key="IBUITabBar"/>
 						</object>
-						<object class="NSArray" key="IBUIToolbarItems">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
 						<reference key="IBUIParentViewController" ref="63236387"/>
+						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
+					<reference ref="755824200"/>
 					<object class="IBUIViewController" id="965913109">
 						<string key="IBUITitle">YouTube Controller</string>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="18106869">
@@ -141,7 +141,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBObjectRecord">
 						<int key="objectID">0</int>
-						<object class="NSArray" key="object" id="61858766">
+						<object class="NSArray" key="object" id="616807480">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 						<reference key="children" ref="1000"/>
@@ -153,23 +153,23 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
-						<reference key="parent" ref="61858766"/>
+						<reference key="parent" ref="616807480"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">-1</int>
 						<reference key="object" ref="841351856"/>
-						<reference key="parent" ref="61858766"/>
+						<reference key="parent" ref="616807480"/>
 						<string type="base64-UTF8" key="objectName">RmlsZSdzIE93bmVyA</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
 						<reference key="object" ref="664661524"/>
-						<reference key="parent" ref="61858766"/>
+						<reference key="parent" ref="616807480"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">-2</int>
 						<reference key="object" ref="427554174"/>
-						<reference key="parent" ref="61858766"/>
+						<reference key="parent" ref="616807480"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
@@ -181,9 +181,9 @@
 							<reference ref="456722288"/>
 							<reference ref="374500165"/>
 							<reference ref="965913109"/>
-							<reference ref="1028108996"/>
+							<reference ref="755824200"/>
 						</object>
-						<reference key="parent" ref="61858766"/>
+						<reference key="parent" ref="616807480"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
@@ -249,17 +249,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">21</int>
-						<reference key="object" ref="1028108996"/>
+						<reference key="object" ref="755824200"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="153907229"/>
+							<reference ref="743384387"/>
 						</object>
 						<reference key="parent" ref="63236387"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="153907229"/>
-						<reference key="parent" ref="1028108996"/>
+						<reference key="object" ref="743384387"/>
+						<reference key="parent" ref="755824200"/>
 					</object>
 				</object>
 			</object>
@@ -285,6 +285,7 @@
 					<string>2.IBAttributePlaceholdersKey</string>
 					<string>2.IBEditorWindowLastContentRect</string>
 					<string>2.IBPluginDependency</string>
+					<string>21.CustomClassName</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
 				</object>
@@ -316,6 +317,7 @@
 					</object>
 					<string>{{438, 320}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>MVideoViewController</string>
 					<string>Mothering_TabBarDemoAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
