@@ -7,6 +7,7 @@
 //
 
 #import "MQuestionAnswerViewController.h"
+#include <sqlite3.h>
 
 
 @implementation MQuestionAnswerViewController
@@ -29,11 +30,34 @@
 }
 */
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
+  //DEBUG: this is for testing purposes only
+  sqlite3 * db;
+  sqlite3_stmt * statement = nil;
+  int dbrc; //database return code
+  NSString *path = [[NSBundle mainBundle] pathForResource:@"questions" ofType:@"sqlite"];
+  NSLog(@"%@", path);
+  dbrc = sqlite3_open([path UTF8String], &db);
+  NSLog(@"db open result = %i", dbrc);
+  if (dbrc == SQLITE_OK) {
+    NSLog(@"Database Successfully Opened :) ");
+    const char * myselect = "select * from topics";
+    dbrc = sqlite3_prepare_v2 (db, myselect, -1, &statement, NULL);
+    NSLog(@"db statement result = %i", dbrc);
+    while (sqlite3_step(statement) == SQLITE_ROW)
+    {
+      char * ctopicname = (char *)sqlite3_column_text(statement, 1);
+      NSString * topicname = [NSString stringWithFormat:@"%s", ctopicname];
+      NSLog(@"%@", topicname);
+    }
+  } else {
+    NSLog(@"Error in opening database :( ");
+  }
+  
+  [super viewWillAppear:animated];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
