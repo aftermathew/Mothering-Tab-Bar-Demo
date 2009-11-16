@@ -51,6 +51,17 @@
       NSString * topicname = [NSString stringWithFormat:@"%s", ctopicname];
       NSLog(@"%@", topicname);
     }
+    sqlite3_finalize(statement);
+    dbrc = sqlite3_close(db);
+    if (dbrc == SQLITE_OK)
+    {
+      NSLog(@"Database closed.");
+    }
+    else 
+    {
+      NSLog(@"Database closing failure. %i", dbrc);
+    }
+
   } else {
     NSLog(@"Error in opening database :( ");
   }
