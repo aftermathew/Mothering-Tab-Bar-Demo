@@ -7,6 +7,7 @@
 //
 
 #import "Mothering_TabBarDemoAppDelegate.h"
+#import "MVideoViewController.h"
 
 @implementation Mothering_TabBarDemoAppDelegate
 
@@ -16,16 +17,33 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
-    // Override point for customization after application launch
-	[window addSubview:[tabBarController view]];
-    [window makeKeyAndVisible];
+  // Override point for customization after application launch
+  [window addSubview:[tabBarController view]];
+  [window makeKeyAndVisible];
+
+  
+  // do setup on view controllers
+  // iterate through view controllers looking for movie player controllers
+  // setup their urls
+  NSArray *viewControllers = [tabBarController viewControllers];
+  NSEnumerator *enumerator = [viewControllers objectEnumerator];
+  id aView;
+  while (aView = [enumerator nextObject]) {
+    if([aView isMemberOfClass:[MVideoViewController class]]){
+      MVideoViewController *vidController = (MVideoViewController*)aView;
+      if([[[vidController tabBarItem] title] compare:@"Online Video"] == NSOrderedSame)
+        [vidController setMovieUrl:[MVideoViewController onlineMovie]];
+      else
+        [vidController setMovieUrl:[MVideoViewController localMovie]];
+    }
+  }
 }
 
 
 - (void)dealloc {
-	self.tabBarController = nil;
-    [window release];
-    [super dealloc];
+  self.tabBarController = nil;
+  [window release];
+  [super dealloc];
 }
 
 

@@ -12,11 +12,20 @@
 @interface MVideoViewController : UIViewController <UITextFieldDelegate> {
   UITextView * logText;
   MPMoviePlayerController *m_moviePlayer;
-  NSURL *m_movieUrl;
+  NSURL *movieUrl;
 }
 
 @property (retain, nonatomic) IBOutlet UITextView * logText;
+@property (retain, nonatomic) NSURL *movieUrl;
 
 - (IBAction) handleTextFieldClick;
 - (IBAction) playTheFrickinMovie;
+
+// HACK 
+// MATHEW
+// these two functions just to prove out the concept of online and local movies.
+// they should not exist in the real program
++ (NSURL *) localMovie;
++ (NSURL *) onlineMovie;
+
 @end
