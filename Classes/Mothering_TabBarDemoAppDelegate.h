@@ -11,10 +11,13 @@
 @interface Mothering_TabBarDemoAppDelegate : NSObject <UIApplicationDelegate> {
   UIWindow *window;
 	UITabBarController *tabBarController;
+  NSUserDefaults *userDefaults;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) NSUserDefaults *userDefaults;
+
 
 @end
 

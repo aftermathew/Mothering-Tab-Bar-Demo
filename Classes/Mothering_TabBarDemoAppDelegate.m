@@ -13,7 +13,7 @@
 
 @synthesize window;
 @synthesize tabBarController;
-
+@synthesize userDefaults;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
@@ -37,6 +37,16 @@
         [vidController setMovieUrl:[MVideoViewController localMovie]];
     }
   }
+  
+  
+  //setup the application preferences and user defaults
+  userDefaults = [NSUserDefaults standardUserDefaults];
+  if([userDefaults objectForKey:@"LastTab"]){
+    NSInteger tabNum = [userDefaults integerForKey:@"LastTab"];
+    tabBarController.selectedIndex = tabNum;
+    [self.tabBarController.selectedViewController viewDidAppear:YES];
+  }
+  
 }
 
 
@@ -46,5 +56,10 @@
   [super dealloc];
 }
 
+- (void)applicationWillTerminate:(UIApplication *)application {
+  // save user data to NSDefaults
+  NSLog(@"We are terminating");
+  [userDefaults setInteger:[tabBarController selectedIndex] forKey:@"LastTab"];
+}
 
 @end
