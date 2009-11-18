@@ -7,11 +7,11 @@
 //
 
 #import "MQuestionAnswerViewController.h"
+#import "Topic.h"
 #include <sqlite3.h>
 
-
 @implementation MQuestionAnswerViewController
-
+@synthesize topics;
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
     // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -30,42 +30,61 @@
 }
 */
 
-
-- (void)viewWillAppear:(BOOL)animated {
-  //DEBUG: this is for testing purposes only
-  sqlite3 * db;
-  sqlite3_stmt * statement = nil;
-  int dbrc; //database return code
+- (void)openQuestionsDB {
   NSString *path = [[NSBundle mainBundle] pathForResource:@"questions" ofType:@"sqlite"];
-  NSLog(@"%@", path);
+  //NSLog(@"%@", path);
   dbrc = sqlite3_open([path UTF8String], &db);
-  NSLog(@"db open result = %i", dbrc);
   if (dbrc == SQLITE_OK) {
     NSLog(@"Database Successfully Opened :) ");
+  } else {
+    NSLog(@"Error in opening database :( ");
+    db = nil;
+  }
+}
+
+- (void)getDataFromQuestionsDB {
+  if (nil != db) 
+  {
+    NSMutableArray * allTopics = [[NSMutableArray alloc] init];
     const char * myselect = "select * from topics";
     dbrc = sqlite3_prepare_v2 (db, myselect, -1, &statement, NULL);
-    NSLog(@"db statement result = %i", dbrc);
     while (sqlite3_step(statement) == SQLITE_ROW)
     {
       char * ctopicname = (char *)sqlite3_column_text(statement, 1);
+      int itopicid = (int)sqlite3_column_int(statement, 0);
       NSString * topicname = [NSString stringWithFormat:@"%s", ctopicname];
-      NSLog(@"%@", topicname);
+      [allTopics addObject:[[Topic alloc] initWithName:topicname withID:itopicid]];
     }
     sqlite3_finalize(statement);
+    self.topics = allTopics;
+    [allTopics release];
+    NSLog(@"db read, %i topics.", [self.topics count]);
+  }
+}
+
+- (void)closeQuestionsDB {
+  if (nil != db) 
+  {
     dbrc = sqlite3_close(db);
     if (dbrc == SQLITE_OK)
     {
       NSLog(@"Database closed.");
+      db = nil;
     }
     else 
     {
       NSLog(@"Database closing failure. %i", dbrc);
-    }
-
-  } else {
-    NSLog(@"Error in opening database :( ");
+    } 
   }
-  
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+  if (nil == topics)
+  {
+    [self openQuestionsDB];
+    [self getDataFromQuestionsDB];
+    [self closeQuestionsDB];
+  }
   [super viewWillAppear:animated];
 }
 
@@ -184,7 +203,8 @@
 
 
 - (void)dealloc {
-    [super dealloc];
+  self.topics = nil;
+  [super dealloc];
 }
 
 
