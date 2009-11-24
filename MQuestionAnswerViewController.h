@@ -11,7 +11,7 @@
 
 @class Topic;
 
-@interface MQuestionAnswerViewController : UITableViewController {
+@interface MQuestionAnswerViewController : UITableViewController <UITableViewDelegate> {
   sqlite3 * db;
   sqlite3_stmt * statement;
   int dbrc; //database return code

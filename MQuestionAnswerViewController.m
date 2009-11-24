@@ -134,13 +134,14 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [self.topics count];
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+  
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -148,9 +149,17 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    // Set up the cell...
-	
+  Topic * cellTopic = [self.topics objectAtIndex:indexPath.row];
+  NSString * cellText = [cellTopic topicName]; 
+  NSLog(@"%@ of %i items, topic name is %@", cellText, [self.topics count], cellText);
+  cell.textLabel.text = cellText;
     return cell;
+}
+
+//delegate method - can override display here if necessary, such as setting a backgroundView...
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+  NSLog(@"displaying cell");
+  
 }
 
 
