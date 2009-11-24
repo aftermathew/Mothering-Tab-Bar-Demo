@@ -26,6 +26,7 @@
 		B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796164710A8C2DD0067B141 /* YouTubeViewController.xib */; };
 		B79CB31510B0C34A00DEC76B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B79CB31410B0C34A00DEC76B /* libsqlite3.dylib */; };
 		B79CB31910B0CCE200DEC76B /* questions.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B79CB31810B0CCE200DEC76B /* questions.sqlite */; };
+		B7CC344110BB9F01006C8D9C /* MQuestionAnswerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CC344010BB9F01006C8D9C /* MQuestionAnswerNavController.m */; };
 		B7D7D43B10B3B4E8004F9D29 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D7D43A10B3B4E8004F9D29 /* Topic.m */; };
 		B7D7D44110B3B5B2004F9D29 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D7D44010B3B5B2004F9D29 /* Question.m */; };
 		B7DA424D10A907F7009F936E /* cavity_flow_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B7DA424C10A907F7009F936E /* cavity_flow_movie.mp4 */; };
@@ -60,6 +61,8 @@
 		B796164710A8C2DD0067B141 /* YouTubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubeViewController.xib; sourceTree = "<group>"; };
 		B79CB31410B0C34A00DEC76B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
 		B79CB31810B0CCE200DEC76B /* questions.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = questions.sqlite; path = Resources/questions.sqlite; sourceTree = "<group>"; };
+		B7CC343F10BB9F01006C8D9C /* MQuestionAnswerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQuestionAnswerNavController.h; sourceTree = "<group>"; };
+		B7CC344010BB9F01006C8D9C /* MQuestionAnswerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQuestionAnswerNavController.m; sourceTree = "<group>"; };
 		B7D7D43910B3B4E8004F9D29 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
 		B7D7D43A10B3B4E8004F9D29 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
 		B7D7D43F10B3B5B2004F9D29 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 		B796155710A7B6D60067B141 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B7CC343F10BB9F01006C8D9C /* MQuestionAnswerNavController.h */,
+				B7CC344010BB9F01006C8D9C /* MQuestionAnswerNavController.m */,
 				B796155810A7B7440067B141 /* MLogViewController.h */,
 				B796155910A7B7440067B141 /* MLogViewController.m */,
 				B796156010A7B86D0067B141 /* MQuestionAnswerViewController.h */,
@@ -256,6 +261,7 @@
 				B7D7D43B10B3B4E8004F9D29 /* Topic.m in Sources */,
 				B7D7D44110B3B5B2004F9D29 /* Question.m in Sources */,
 				AF2A9A7D10BB895700B1D39E /* PopupAndProgressController.m in Sources */,
+				B7CC344110BB9F01006C8D9C /* MQuestionAnswerNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
