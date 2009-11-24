@@ -10,11 +10,13 @@
 
 
 @interface PopupAndProgressController : UIViewController <UIActionSheetDelegate> {
-
+  float progress;
+  UIActionSheet *progressSheet;
+  UIProgressView *progbar;
 }
 
 - (IBAction) popup;
 - (IBAction) progress;
-
+- (void) incrementProgress: (id) timer;
 
 @end

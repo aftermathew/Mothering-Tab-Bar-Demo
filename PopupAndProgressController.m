@@ -50,11 +50,15 @@
 
 
 - (void)dealloc {
+    if(progressSheet)
+      [progressSheet release];
+  
     [super dealloc];
 }
 
 - (void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
   NSLog(@"Pushed button %d", buttonIndex);
+  [actionSheet release];
 }
 
 - (IBAction)popup {
@@ -69,7 +73,32 @@
 }
 
 - (IBAction)progress {
-  NSLog(@"progress called");
+  if(!progressSheet){
+    progressSheet = [[UIActionSheet alloc]
+                    initWithTitle:@"How much I love you... \n\n\n\n\n"
+                    delegate:self
+                    cancelButtonTitle:nil
+                    destructiveButtonTitle:nil
+                    otherButtonTitles:nil];
+  
+    progbar = [[UIProgressView alloc] initWithFrame:CGRectMake(50.0f, 50.0f, 220.0f, 90.0f)];
+    [progressSheet addSubview:progbar];
+    [progbar release];
+  }
+
+  [progbar setProgress:(progress = 0.0f)];
+  [NSTimer scheduledTimerWithTimeInterval: 0.05 target: self selector: @selector(incrementProgress:) userInfo:nil repeats:YES];
+
+  [progressSheet showFromTabBar:[[self tabBarController] tabBar]];
+}
+
+- (void) incrementProgress: (id) timer {
+  progress += 1.0f;
+  [progbar setProgress:(progress / 100.0f)];
+  if (progress > 100.00) {
+    [ progressSheet dismissWithClickedButtonIndex:0 animated: YES];
+    [timer invalidate];
+  }
 }
 
 @end
