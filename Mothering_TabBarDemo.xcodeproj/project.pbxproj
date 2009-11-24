@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		AF2A9A7D10BB895700B1D39E /* PopupAndProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A9A7B10BB895700B1D39E /* PopupAndProgressController.m */; };
+		AF2A9A7E10BB895700B1D39E /* PopupAndProgressController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A9A7C10BB895700B1D39E /* PopupAndProgressController.xib */; };
 		B796155B10A7B7440067B141 /* MLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796155910A7B7440067B141 /* MLogViewController.m */; };
 		B796155C10A7B7440067B141 /* MLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B796155A10A7B7440067B141 /* MLogViewController.xib */; };
 		B796156310A7B86D0067B141 /* MQuestionAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B796156110A7B86D0067B141 /* MQuestionAnswerViewController.m */; };
@@ -40,6 +42,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Mothering_TabBarDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mothering_TabBarDemo_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Mothering_TabBarDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mothering_TabBarDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF2A9A7A10BB895700B1D39E /* PopupAndProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupAndProgressController.h; sourceTree = "<group>"; };
+		AF2A9A7B10BB895700B1D39E /* PopupAndProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupAndProgressController.m; sourceTree = "<group>"; };
+		AF2A9A7C10BB895700B1D39E /* PopupAndProgressController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupAndProgressController.xib; sourceTree = "<group>"; };
 		B796155810A7B7440067B141 /* MLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLogViewController.h; sourceTree = "<group>"; };
 		B796155910A7B7440067B141 /* MLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLogViewController.m; sourceTree = "<group>"; };
 		B796155A10A7B7440067B141 /* MLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLogViewController.xib; sourceTree = "<group>"; };
@@ -123,9 +128,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				B79CB31810B0CCE200DEC76B /* questions.sqlite */,
 				B7DA424C10A907F7009F936E /* cavity_flow_movie.mp4 */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Mothering_TabBarDemo-Info.plist */,
 			);
 			name = Resources;
@@ -159,6 +164,7 @@
 				B796157710A7B8E20067B141 /* MVideoViewController.xib */,
 				B796156210A7B86D0067B141 /* MQuestionAnswerViewController.xib */,
 				B796155A10A7B7440067B141 /* MLogViewController.xib */,
+				AF2A9A7C10BB895700B1D39E /* PopupAndProgressController.xib */,
 				B796164710A8C2DD0067B141 /* YouTubeViewController.xib */,
 			);
 			name = Views;
@@ -173,6 +179,8 @@
 				B796156110A7B86D0067B141 /* MQuestionAnswerViewController.m */,
 				B796157510A7B8E20067B141 /* MVideoViewController.h */,
 				B796157610A7B8E20067B141 /* MVideoViewController.m */,
+				AF2A9A7A10BB895700B1D39E /* PopupAndProgressController.h */,
+				AF2A9A7B10BB895700B1D39E /* PopupAndProgressController.m */,
 				B796164510A8C2DD0067B141 /* YouTubeViewController.h */,
 				B796164610A8C2DD0067B141 /* YouTubeViewController.m */,
 			);
@@ -228,6 +236,7 @@
 				B796164910A8C2DD0067B141 /* YouTubeViewController.xib in Resources */,
 				B7DA424D10A907F7009F936E /* cavity_flow_movie.mp4 in Resources */,
 				B79CB31910B0CCE200DEC76B /* questions.sqlite in Resources */,
+				AF2A9A7E10BB895700B1D39E /* PopupAndProgressController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +255,7 @@
 				B796164810A8C2DD0067B141 /* YouTubeViewController.m in Sources */,
 				B7D7D43B10B3B4E8004F9D29 /* Topic.m in Sources */,
 				B7D7D44110B3B5B2004F9D29 /* Question.m in Sources */,
+				AF2A9A7D10BB895700B1D39E /* PopupAndProgressController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

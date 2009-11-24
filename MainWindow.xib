@@ -48,16 +48,13 @@
 			<object class="IBUITabBarController" id="63236387">
 				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="755824200">
-					<string key="IBUITitle">Online Video</string>
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="743384387">
-						<string key="IBUITitle">Online Video</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="456722288">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="409562702">
+						<string key="IBUITitle">Video</string>
 						<reference key="IBUITabBar"/>
 					</object>
-					<object class="NSArray" key="IBUIToolbarItems">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-					</object>
 					<reference key="IBUIParentViewController" ref="63236387"/>
+					<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -77,15 +74,18 @@
 						</object>
 						<reference key="IBUIParentViewController" ref="63236387"/>
 					</object>
-					<object class="IBUIViewController" id="456722288">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="409562702">
-							<string key="IBUITitle">Video</string>
+					<reference ref="456722288"/>
+					<object class="IBUIViewController" id="755824200">
+						<string key="IBUITitle">Online Video</string>
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="743384387">
+							<string key="IBUITitle">Online Video</string>
 							<reference key="IBUITabBar"/>
 						</object>
+						<object class="NSArray" key="IBUIToolbarItems">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
 						<reference key="IBUIParentViewController" ref="63236387"/>
-						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
-					<reference ref="755824200"/>
 					<object class="IBUIViewController" id="965913109">
 						<string key="IBUITitle">YouTube Controller</string>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="18106869">
@@ -94,6 +94,17 @@
 						</object>
 						<reference key="IBUIParentViewController" ref="63236387"/>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
+					</object>
+					<object class="IBUIViewController" id="46607216">
+						<string type="base64-UTF8" key="IBUITitle">UCAmIFA</string>
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="258046692">
+							<string type="base64-UTF8" key="IBUITitle">UCAmIFA</string>
+							<reference key="IBUITabBar"/>
+						</object>
+						<object class="NSArray" key="IBUIToolbarItems">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<reference key="IBUIParentViewController" ref="63236387"/>
 					</object>
 				</object>
 				<object class="IBUITabBar" key="IBUITabBar" id="733035665">
@@ -182,6 +193,7 @@
 							<reference ref="374500165"/>
 							<reference ref="965913109"/>
 							<reference ref="755824200"/>
+							<reference ref="46607216"/>
 						</object>
 						<reference key="parent" ref="616807480"/>
 					</object>
@@ -261,6 +273,20 @@
 						<reference key="object" ref="743384387"/>
 						<reference key="parent" ref="755824200"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">23</int>
+						<reference key="object" ref="46607216"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="258046692"/>
+						</object>
+						<reference key="parent" ref="63236387"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">24</int>
+						<reference key="object" ref="258046692"/>
+						<reference key="parent" ref="46607216"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -286,6 +312,7 @@
 					<string>2.IBEditorWindowLastContentRect</string>
 					<string>2.IBPluginDependency</string>
 					<string>21.CustomClassName</string>
+					<string>23.CustomClassName</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
 				</object>
@@ -318,6 +345,7 @@
 					<string>{{438, 320}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>MVideoViewController</string>
+					<string>PopupAndProgressController</string>
 					<string>Mothering_TabBarDemoAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -342,7 +370,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">22</int>
+			<int key="maxID">24</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -415,6 +443,27 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PopupAndProgressController</string>
+					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSMutableArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>popup</string>
+							<string>progress</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">PopupAndProgressController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

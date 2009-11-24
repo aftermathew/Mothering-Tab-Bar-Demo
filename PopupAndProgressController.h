@@ -1,0 +1,20 @@
+//
+//  PopupAndProgressController.h
+//  Mothering_TabBarDemo
+//
+//  Created by Mathew Chasan on 11/23/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface PopupAndProgressController : UIViewController <UIActionSheetDelegate> {
+
+}
+
+- (IBAction) popup;
+- (IBAction) progress;
+
+
+@end
